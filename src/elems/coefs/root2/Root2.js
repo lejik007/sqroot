@@ -1,8 +1,8 @@
-export default function Root1() {
+export default function Root2() {
     return (
         <div className="root">
-            <label htmlFor="Root1">х<sub>1</sub> = : </label>
-            <input type="text" id="Root1" name="Root1" maxLength="8" size="10" />
+            <label htmlFor="Root2">х<sub>2</sub> = : </label>
+            <input type="text" id="Root2" name="Root2" maxLength="8" size="10" />
         </div>
     );
 }

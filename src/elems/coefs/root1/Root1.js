@@ -1,8 +1,8 @@
-export default function CoefC() {
+export default function Root1() {
     return (
-        <div className="coefficient">
-            <label htmlFor="CoefC">Коэффициент при х<sup>0</sup>: </label>
-            <input type="text" id="CoefC" name="CoefC" maxLength="8" size="10" />
+        <div className="root">
+            <label htmlFor="Root1">х<sub>1</sub> = : </label>
+            <input type="text" id="Root1" name="Root1" maxLength="8" size="10" />
         </div>
     );
 }

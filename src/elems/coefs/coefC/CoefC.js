@@ -1,10 +1,8 @@
-export default function CoefA() {
+export default function CoefC() {
     return (
         <div className="coefficient">
-            <label htmlFor="CoefA">Коэффициент при х<sup>2</sup></label>
-
-            <input type="text" id="CoefA" name="CoefA" maxLength="8" size="10" />
-            {/*<input type="text" id="name" name="name" required minLength="4" maxLength="8" size="10" />*/}
+            <label htmlFor="CoefC">Коэффициент при х<sup>0</sup>: </label>
+            <input type="text" id="CoefC" name="CoefC" maxLength="8" size="10" />
         </div>
     );
 }
